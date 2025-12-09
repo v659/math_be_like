@@ -1,0 +1,29 @@
+Thanks to Chads Prep
+
+2D VECTORS
+
+vector = magnitude + direction
+
+sin(theta) = opposite/hypot
+cos(theta) = adjacent/hypot
+tan(theta) = opposite/adjacent
+
+Using sin and cos, we can derive the x and y components of a vector
+If you calculated x and y components, you can use pythagorean's theorem to recalculate the hypot
+Calculate angle is atan2(y, x)
+
+Adding and subtracting - Just extract the x and y components, add or subtract them
+
+1D kinematics
+
+For 1D, we can just pad our 2D vector class like this:
+position = Vector2Math(12, x=0, y=0)
+velocity = Vector2Math(12, x=5, y=0)  # 5 m/s along x
+acceleration = Vector2Math(12, x=2, y=0)  # 2 m/s² along x
+
+Concept:
+Displacement is the vector from start point with the direction
+Velocity is vector of displacement/time in a direction displacement per time unit
+Acceleration is vector of velocity/time in a direction velocity change per time unit
+Constant velocity = 0 acceleration
+
