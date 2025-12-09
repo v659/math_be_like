@@ -1,3 +1,6 @@
+from vector2D import Vector2Math
+import math
+
 # 1. From x and y
 v1 = Vector2Math(12, x=3, y=4)
 print("v1 vector:", v1.vector)
