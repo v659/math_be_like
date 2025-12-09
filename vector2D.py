@@ -23,6 +23,9 @@ class Vector2Math:
     def angle(self):
         return self.calculate_angle(self.x, self.y)
 
+    @property
+    def vector(self):
+        return self.get_vector()
     @staticmethod
     def pythagorean_theorem(x_component, y_component):
         return math.sqrt(x_component**2 + y_component**2)
@@ -54,12 +57,15 @@ class Vector2Math:
     def __add__(self, b):
         return Vector2Math(self.x + b.x, self.y + b.y)
 
+    def __sub__(self, b):
+        return Vector2Math(self.x - b.x, self.y - b.y)
+
     def __repr__(self):
         return f"Vector2Math({self.x}, {self.y})"
 
 
 a = Vector2Math(8.7, 5)
 b = Vector2Math(0, 5)
-c = a + b
-print(c.get_vector())
+c = a - b
+print(c.vector)
 
