@@ -1,5 +1,6 @@
 import math
 
+
 class Vector2Math:
     """
     Code by Arjun Agarwal.
