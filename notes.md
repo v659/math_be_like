@@ -6,8 +6,8 @@ A **vector** = magnitude + direction.
 
 ### Basic Trig
 
--   **sin(θ)** = opposite / hypotenuse\
--   **cos(θ)** = adjacent / hypotenuse\
+-   **sin(θ)** = opposite / hypotenuse
+-   **cos(θ)** = adjacent / hypotenuse
 -   **tan(θ)** = opposite / adjacent
 
 Using **sin** and **cos**, we can derive the **x** and **y** components
